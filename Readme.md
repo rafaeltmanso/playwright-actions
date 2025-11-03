@@ -234,6 +234,8 @@ npx playwright test --clean
 
 **[Fernando Papito](https://github.com/papitodev)** 
 
+**Fork by Rafael Manso**
+
 ---
 
 ## 📄 License
