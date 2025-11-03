@@ -41,9 +41,8 @@ const login = async (page: Page, user: string, pass: string) => {
   const username = page.locator('[name=user]')
   const password = page.locator('[name=pass]')
 
-  user ? await username.fill(user) : null
+  if (user) await username.fill(user)
+  if (pass) await password.fill(pass)
 
-  pass ? await password.fill(pass) : null
-
-  await page.click('css=button >> text=Entrar')
+  await page.getByRole('button', { name: 'Entrar' }).click()
 }
