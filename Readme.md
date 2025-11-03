@@ -233,6 +233,7 @@ npx playwright test --clean
 ## 👨‍💻 Author
 
 **[Fernando Papito](https://github.com/papitodev)** 
+
 **Fork by Rafael Manso**
 
 ---
